@@ -1,0 +1,884 @@
+body {
+    background-color: #2D294C !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-bottom: 2% !important;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+#divNav>nav {
+    vertical-align: middle;
+    height: 100px;
+}
+
+#divTitulo {
+    padding-top: 70px;
+    text-align: center;
+}
+
+#divTitulo>p {
+    font-size: 24px;
+    font-family: 'Open Sans';
+    color: #F0F0F0;
+    margin-bottom: 0;
+}
+
+#divTitulo>h1 {
+    font-family: Tahoma;
+    color: #746ACE;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#divTitulo>h2 {
+    font-family: 'Open Sans';
+    color: #F0F0F0;
+    font-size: 55px;
+    text-align: center;
+}
+
+#divTutorial>h2 {
+    font-family: Verdana;
+    color: #E0E0E0;
+    font-size: 28px;
+    font-weight: bolder;
+    padding-left: 405px;
+    padding-top: 80px;
+    position: absolute;
+}
+
+#divTutorial>h3 {
+    font-family: Verdana;
+    color: #D5FF26;
+    font-size: 28px;
+    font-weight: bolder;
+    width: 256px;
+    position: absolute;
+    padding-top: 100px;
+    margin-left: 235px;
+}
+
+#divTutorial>img {
+    position: absolute;
+    padding-left: 355px;
+    padding-top: 125px;
+}
+
+#divBarraNav {
+    height: 100px;
+    background-color: rgba(100, 100, 100, 0.09);
+    vertical-align: middle;
+    top: 0;
+}
+
+#logo {
+    position: absolute;
+    padding-top: 16px;
+    padding-left: 30px;
+}
+
+#divColecaoCards{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 5%;
+    padding-top: 5%;
+    row-gap: 5%;
+}
+
+#qilabs {
+    font-family: Verdana;
+    font-weight: bolder;
+    color: #E0E0E0;
+    font-size: 36px;
+    margin: 0;
+    padding-top: 27px;
+    padding-left: 95px;
+    position: absolute;
+}
+
+#novaColecao{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 36px;
+    left: 4.5%;
+    top: 13%;
+    position: absolute;
+}
+
+#novaColecaoBotao{
+    width: 10% !important;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    display: inline-block !important;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF !important;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    background-color: #5E5796;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 81%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+#preencher{
+    color: #FFFFFF; 
+    font-weight: bolder; 
+    font-size: 36px; 
+    text-align: center; 
+    padding-top: 90px;
+}
+
+#setaRes{
+
+    padding-left: 45% !important;
+    margin-top: -29% !important;
+
+}
+
+#CartaoInicioResultado{
+
+    margin-left: 58.5%;
+    margin-top: -26%;
+}
+
+#escondido{
+
+    visibility: hidden;
+    animation: fadeIn 5s;
+
+}
+
+#submit {
+    width: 195px;
+    height: 54px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    background-color: #5E5796;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#descricao {
+    height: 60%;
+    width: 55%;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'HelveticaNeue';
+    font-size: 24px;
+}
+
+#divCartaoInicio {
+    margin-left: 515px;
+    margin-top: 120px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#divForms {
+
+    margin-top: 5%;
+}
+
+#pDica {
+    color: #868E96;
+    position: absolute;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+    margin-left: 35%;
+}
+
+#bolder {
+    font-weight: bolder;
+}
+
+#botaoCentro{
+    width: 195px;
+    height: 54px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    background-color: #5E5796;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+}
+
+#divCartaoInicio>hr{
+
+    border-top: 2px solid #707070 !important;
+    width: 50%;
+    opacity: 1 !important;
+    margin: auto;
+    height: auto;
+    
+
+}
+
+#entrar{
+
+    width: 10% !important;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    display: inline-block !important;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF !important;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    background-color: #5E5796;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 2%;
+    text-align: center;
+
+}
+
+#emailIncorreto{
+
+    position: absolute;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+    color: #FF3939;
+    margin-left: 35%;
+    visibility: hidden;
+    
+}
+
+#senhaIncorreta{
+    position: absolute;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+    color: #FF3939;
+    margin-left: 35%;
+    visibility: hidden;
+}
+
+#botao2{
+
+    width: 10% !important;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    display: inline-block !important;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF !important;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    background-color: #5E5796;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 4.5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#botao2>a:hover{
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+
+#divObjetos{
+
+    display: none;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 30px;
+    padding-top: 30px;
+    margin-left: 4.5%;
+    margin-right: 10.6%;
+}
+
+#divCores{
+
+    display: none;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 30px;
+    padding-top: 30px;
+    margin-left: 4.5%;
+    margin-right: 10.6%;
+}
+
+#divAnimais{
+
+    display: none;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 30px;
+    padding-top: 30px;
+    margin-left: 4.5%;
+    margin-right: 10.6%;
+}
+
+#divAdjetivos{
+
+    display: none;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 30px;
+    padding-top: 30px;
+    margin-left: 4.5%;
+    margin-right: 10.6%;
+}
+
+#divBotaoJogar{
+    text-align: center;
+}
+
+#botaoJogar{
+    width: 10% !important;
+    padding: 13px 25px !important;
+    display: inline-block !important;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF !important;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    background-color: #57966A;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#divCadastrarFrenteObjeto{
+    display: none;
+}
+#divCadastrarFrenteCores{
+    display: none;
+}
+#divCadastrarFrenteAnimais{
+    display: none;
+}
+#divCadastrarFrenteAdjetivos{
+    display: none;
+}
+
+#cadastrarFrenteObjeto{
+    border: none;
+    outline: none;
+    width: 95%;
+    text-align: center;
+    color: #414141;
+    font-size: 36px;
+    font-family: 'Helvetica Neue';
+    text-decoration: underline;
+}
+#cadastrarFrenteCores{
+    border: none;
+    outline: none;
+    width: 95%;
+    text-align: center;
+    color: #414141;
+    font-size: 36px;
+    font-family: 'Helvetica Neue';
+    text-decoration: underline;
+}
+#cadastrarFrenteAnimais{
+    border: none;
+    outline: none;
+    width: 95%;
+    text-align: center;
+    color: #414141;
+    font-size: 36px;
+    font-family: 'Helvetica Neue';
+    text-decoration: underline;
+}
+#cadastrarFrenteAdjetivos{
+    border: none;
+    outline: none;
+    width: 95%;
+    text-align: center;
+    color: #414141;
+    font-size: 36px;
+    font-family: 'Helvetica Neue';
+    text-decoration: underline;
+}
+
+#editarFrente{
+    border: none;
+    outline: none;
+    width: 95%;
+    text-align: center;
+    color: #414141;
+    font-size: 36px;
+    font-family: 'Helvetica Neue';
+    text-decoration: underline;
+}
+
+#editarVerso{
+    border: none;
+    outline: none;
+    width: 95%;
+    text-align: center;
+    color: #414141;
+    font-size: 36px;
+    font-family: 'Helvetica Neue';
+    text-decoration: underline;
+}
+
+#divFrente{
+    padding-top: 75px;
+    position: absolute;
+}
+
+#divVerso{
+    
+    padding-top: 75px;
+    position: absolute;
+    
+}
+
+#btnSim{
+    position:absolute;
+    text-align: center;
+    color: #FFFFFF;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+    right: 114px;
+    bottom: 05px;
+
+}
+
+#btnCancelar{
+    position:absolute;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #007BFF;
+    width: 20%;
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+    right: 5px;
+    bottom: 05px;
+}
+
+#modalBottom{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-top: 12px;
+    border-bottom-color: #E9ECEF;
+}
+
+#divCartaoJogo{
+    padding-left: 41.5%;
+    padding-top: 200px;
+}
+
+#cartaoNaoVirado{
+    padding-top: 118px !important;
+}
+
+#divBtnVirar{
+    
+    padding-top: 25px;
+    padding-left: 1.2%;
+    
+}
+
+#cartaoVirado{
+    position: absolute;
+    margin-left: 41.5%;
+    margin-top: -28.9%;
+}
+
+#cartaoViradoInicio{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -26%;
+}
+
+#btnVirar{
+    background-color: #57966A;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    height: 80px;
+    width: 300px;
+    
+}
+
+#divBtnProximo{
+    position: absolute;
+    margin-left: 42.2%;
+    margin-top: -4.1%;
+    
+}
+
+#divCartaoHiddenO{
+    display: none;
+}
+#divCartaoHiddenC{
+    display: none;
+}
+#divCartaoHiddenA{
+    display: none;
+}
+#divCartaoHiddenAd{
+    display: none;
+}
+
+
+#btnProximo{
+    background-color: #57966A;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    height: 80px;
+    width: 300px;
+    
+}
+
+#divContadoJogo{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: Tahoma;
+    margin: 0;
+    padding-top: 90px;
+    width: 100%;
+
+}
+
+#divJogoObj{
+    display: none;
+}
+#divJogoCores{
+    display: none;
+}
+#divJogoAnimais{
+    display: none;
+}
+#divJogoAdj{
+    display: none;
+}
+
+.list-group{
+
+    border-radius: 0 !important;
+}
+
+.list-group-item{
+    padding: 5px 10px !important;
+    height: 54px !important;
+    color: #3C3C3C !important;
+    font-family: Tahoma;
+    font-size: 28px;
+    font-weight: bolder !important;
+}
+
+.arvorePImg{
+
+    position: absolute;
+    left: 2px;
+    top: 184px;
+
+}
+
+.arvoreGImg{
+
+    position: absolute;
+    left: 98px;
+    top: 85px;
+
+}
+
+.editarImg{
+
+    position: absolute;
+    top: 15px;
+    right: 15px;   
+}
+
+.editarImgCardli{
+
+    position: absolute;
+    z-index: 1;
+    right: 14.3%; 
+    padding-top: 5px;
+}
+
+.editarImgCard{
+
+    position: absolute;
+    right: 70px;   
+}
+
+.deletarImgCard{
+
+    position: absolute;
+    right: 15px;   
+    cursor: pointer;
+}
+
+.deletarImgCardli{
+
+    position: absolute;
+    z-index: 1;
+    right: 11.4%; 
+    padding-top: 5px;   
+}
+
+.colecaoImg{
+    position: absolute;
+    left: 40px;
+    top: 85px;
+}
+
+
+
+.modal{
+    display: none;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 50%; 
+    height: 50%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% 35%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px !important;
+    height: 230px;
+    border-radius: 3px !important; 
+}
+
+.modal-content>h1{
+    color: #1B1E21;
+    font-size: 20px;
+    font-family: 'HelveticaNeue-Medium';
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+    border-bottom-color: #E9ECEF;
+    
+}
+
+.modal-content>p{
+    color: #212529;
+    font-size: 16px;
+    font-family: 'HelveticaNeue-Medium';
+    margin-top: 28px;
+    margin-bottom: 1rem;
+}
+
+.close {
+    position: absolute;
+    color: #aaaaaa;
+    right: 5px;
+    top: -10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ursoImg{
+    position: absolute;
+    left: 25px;
+    top: 60px;
+}
+
+.deletarImg{
+    position: absolute;
+    right: 19px;
+    bottom: 11px;
+    cursor: pointer;
+}
+
+.botao{
+    width: 6%;
+    margin-left: 4.5%;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    position: absolute;
+    padding-bottom: 4px;
+    border-color: #CED4DA;
+}
+
+.card-body>h4{
+
+    text-align: center;
+    color: #27ACA7;
+    font-size: 36px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    padding-top: 115%;
+}
+
+.card-body>h2 {
+    font-family: 'Trebuchet MS';
+    color: #4B5366;
+    font-size: 54px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.card-body>h3{
+    float: left;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    color: #777777;
+    position: absolute;
+}
+
+.card-body>hr{
+    
+    border-top: 4px dotted #707070 !important;
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+
+
+.cartao {
+
+    width: 320px;
+    height: 450px;
+    border-radius: 50px !important;
+    border: solid !important;
+    border-color: #707070 !important;
+}
+
+.opcoesBarraNav {
+    display: inline;
+    float: inline-end;
+    position: relative;
+    font-size: 28px;
+    font-family: 'Open Sans';
+    color: #E0E0E0;
+    padding-top: 30px;
+    padding-right: 45px;
+    vertical-align: middle;
+    height: 100px;
+}
+
+.Forms {
+
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+}
+
+.FormsBusca>input{
+
+    width: 79%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: none;
+    border-color: #CED4DA;
+    padding-left: 10px;
+}
+
+.Forms>input, button{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.Forms>label {
+    color: #E0E0E0;
+    padding-left: 35%;
+    margin-bottom: 0;
+}
+
+.Forms>textarea{
+
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+
+.cardsCentro{
+
+    padding-left: 40% !important;
+    
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

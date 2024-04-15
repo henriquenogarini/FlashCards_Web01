@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="../css/estiloGeral.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/script.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale = 1">
+
+    <link rel="icon" type="image/x-icon" href="../images/index_brain.png">
+
+    <title>QI Labs</title>
+
+    <script>
+
+    
+        function esc(x){
+                    
+            sessionStorage.setItem('escolha', x)
+            postMessage(x, '*')
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <div>
+        <div id="divNav">
+            <nav>
+                <div id="divBarraNav">
+                    <img id="logo" src="../images/index_brain.png" alt="logo">
+                    <h1 id="qilabs">QI Labs</h1>
+
+                    <div class="justify-content-end d-flex">
+                        <ul>
+                            <li class="opcoesBarraNav"><a href="../paginaInicial.html">Sair</a></li>
+                            <li class="opcoesBarraNav" id="bolder">Minhas coleções</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div>
+            <a id="novaColecaoBotao" href="novaColecao.html" onclick="login()">Nova Coleção</a>
+        </div>
+
+        <div id="divColecaoCards">
+
+            <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1>Exclusão</h1>
+                    <br><br><br>
+                    <p>Tem certeza que deseja remover essa coleção? Isso excluirá todos os cartões contidos nela.</p>
+                    <div id="modalBottom"><button id="btnSim">Sim</button><button id="btnCancelar">Cancelar</button></div>
+                    
+                </div>
+
+            </div>
+
+            <div class="card cartao" id="divCa">
+
+                <div class="card-body">
+                    
+                    <a href="listaCardsColecao.html" onclick="esc('1')"><img class="colecaoImg" src="../images/bola.png" alt="bola"></a>
+                    <a href="editarColecao.html"><img class="editarImg" src="../images/editar.png" alt="editar"></a>
+                    <br>
+                    <h4>Objetos</h4>
+                    <img class="deletarImg" src="../images/deletar.png" alt="deletar" onclick="deletar()">
+
+                </div>
+            </div>
+            <div class="card cartao">
+
+                <div class="card-body">
+                    <a href="listaCardsColecao.html" onclick="esc('2')"><img class="colecaoImg" src="../images/cores.png" alt="cores"></a>
+                    <a href="editarColecao.html" ><img class="editarImg" src="../images/editar.png" alt="editar"></a>
+                    <br>
+                    <h4>Cores</h4>
+                    <img class="deletarImg" src="../images/deletar.png" alt="deletar" onclick="deletar()">
+                </div>
+            </div>
+            <div class="card cartao">
+
+                <div class="card-body">
+                    <a href="listaCardsColecao.html" onclick="esc('3')"><img class="ursoImg" src="../images/urso.png" alt="urso"></a>
+                    <a href="editarColecao.html"><img class="editarImg" src="../images/editar.png" alt="editar"></a>
+                    <br>
+                    <h4>Animais</h4>
+                    <img class="deletarImg" src="../images/deletar.png" alt="deletar" onclick="deletar()">
+                </div>
+            </div>
+            <div class="card cartao">
+                <div class="card-body">
+                    <a href="listaCardsColecao.html" onclick="esc('4')"><img class="arvoreGImg" src="../images/arvoreGrande.png" alt="arvore"></a>
+                    <a href="listaCardsColecao.html" onclick="esc('4')"><img class="arvorePImg" src="../images/arvorePequena.png" alt="arvore"></a>
+                    <a href="editarColecao.html"><img class="editarImg" src="../images/editar.png" alt="editar"></a>
+                    <br>
+                    <h4>Adjetivos</h4>
+                    <img class="deletarImg" src="../images/deletar.png" alt="deletar" onclick="deletar()">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
